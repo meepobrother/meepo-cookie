@@ -1,0 +1,20 @@
+{
+  "name": "meepo-cookie",
+  "version": "1.1.0",
+  "repository": "https://github.com/meepobrother/meepo-common.git",
+  "author": "imeepos <1037483576@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "@angular/core": "*",
+    "rxjs": "*"
+  },
+  "main": "bundles/meepo-cookie.umd.js",
+  "module": "esm5/meepo-cookie.js",
+  "es2015": "esm2015/meepo-cookie.js",
+  "typings": "meepo-cookie.d.ts",
+  "metadata": "meepo-cookie.metadata.json",
+  "dependencies": {
+    "tslib": "^1.7.1"
+  }
+}
